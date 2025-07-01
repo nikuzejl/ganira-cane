@@ -22,11 +22,7 @@ Deployed to https://ganira-cane.streamlit.app/
    $ streamlit run ganira-cane.py
    ```
 
-### TO-DO
-upload pdf and text files
-search the web
-
-# needed for streamlit cloud
+## needed for streamlit cloud
 # __import__('pysqlite3')
 # import sys
 # sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')

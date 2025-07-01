@@ -10,13 +10,12 @@ from dotenv import load_dotenv
 import tempfile
 import os
 
-# needed for streamlit cloud
-# __import__('pysqlite3')
-# import sys
-# sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+## needed for streamlit cloud
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 load_dotenv()
-
 
 st.title("💬 Conversational Bot Powered by Multi-File Context")
 
